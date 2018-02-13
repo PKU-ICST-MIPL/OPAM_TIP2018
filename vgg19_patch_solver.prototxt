@@ -1,4 +1,4 @@
-net: "./configure/VGG19_ori.prototxt"
+net: "./configure/VGG19_patch.prototxt"
 # test_iter specifies how many forward passes the test should carry out.
 test_iter: 503
 # Carry out testing every 500 training iterations.
@@ -19,6 +19,6 @@ display: 50
 max_iter: 2000000
 # snapshot intermediate results
 snapshot: 5000
-snapshot_prefix: "./models/vgg19_ori"
+snapshot_prefix: "./models/vgg19_patch"
 # solver mode: CPU or GPU
 solver_mode: GPU
