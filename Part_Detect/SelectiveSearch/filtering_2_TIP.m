@@ -133,6 +133,7 @@ end
 %             thresh2=0;
             for m=(temp(1,2)+1):temp(1,4)
                 for n=(temp(1,1)+1):temp(1,3)
+                    average1=average1+saliency(m,n);
  %                   thresh1=thresh1+thresh(m,n);
                     count1=count1+1;
                 end
